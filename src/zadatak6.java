@@ -10,26 +10,19 @@ public class zadatak6 {
         for (int i=0;i<array1.length;i++){
              connectedArrays[index]=array1[i];
              index++;
-
          }
         for (int i=0;i<array2.length;i++){
             connectedArrays[index]=array2[i];
             index++;
-
         }
         for (int i=0;i<array3.length;i++){
             connectedArrays[index]=array3[i];
             index++;
-
         }
         System.out.println("The big Array is: ");
         for (int j = 0; j < connectedArrays.length; j++) {
             System.out.print(connectedArrays[j] + " ");
         }
-
-
-
-
 
     }
 }

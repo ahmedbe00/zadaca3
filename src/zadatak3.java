@@ -12,14 +12,10 @@ public class zadatak3 {
             System.out.println("Enter your int in Array");
             int intInArray = reader.nextInt();
             myArray[i] = intInArray;
-
         }
         System.out.println("Your reversed Array is :");
         for (int i = arrayElements - 1; i >= 0; i--) {
             System.out.println(myArray[i]);
         }
-
-
     }
-
 }

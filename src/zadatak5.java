@@ -9,7 +9,6 @@ public class zadatak5 {
         System.out.println("Please enter upper number in range:");
         int upperLimit = reader.nextInt();
         int[] myArray = new int[upperLimit - lowerLimit + 1];
-        System.out.println("Even numbers for range from " + lowerLimit + " to " + upperLimit + " are:");
 
         if (lowerLimit < upperLimit) {
             System.out.println("Even numbers for range from " + lowerLimit + " to " + upperLimit + " are:");
@@ -19,17 +18,9 @@ public class zadatak5 {
                 if (i % 2 == 0) {
                     System.out.println(i);
                 }
-                else {
-                    System.out.println("The number "+i+" is not divisible with 2");
-                }
-
-
-
             }
-
         } else {
-            System.out.println("The number " + upperLimit + " must be bigger than " + lowerLimit+", so change the positions of numbers1");
+            System.out.println("The number " + upperLimit + " must be bigger than " + lowerLimit+", so change the positions of numbers");
         }
-
     }
 }

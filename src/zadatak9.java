@@ -13,7 +13,5 @@ public class zadatak9 {
             }
         }
         System.out.println(sum);
-
-
     }
 }

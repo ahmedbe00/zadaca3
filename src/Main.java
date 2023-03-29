@@ -9,18 +9,15 @@ public class Main {
         int number= reader.nextInt();
         int[] myArray = new int[number];
 
-
         for (int i=0; i<number;i++) {
             System.out.println("Enter your int in Array");
             int intInArray = reader.nextInt();
             myArray[i] = intInArray;
         }
-
         for (int i=number-1; i>=0;i--){
             System.out.println(myArray[i]);
             if (myArray[i]%2==0){
                 System.out.println("The number is divisible with 2");
-
             }
             else
                 System.out.println("The number is NOT divisible with 2");
@@ -34,19 +31,6 @@ public class Main {
 
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

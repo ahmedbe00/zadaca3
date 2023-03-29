@@ -30,10 +30,6 @@ public class zadatak8 {
             }
 
         }
-
-
         System.out.println(Arrays.toString(newArray));
-
-
     }
 }
